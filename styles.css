@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#circle {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+background-color: green;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.shape1{
+    width: 75px;
+    height: 75px; 
+    background-color: aliceblue;
+}
+
+.shape2{
+    border-bottom: 75px solid rgb(173, 28, 28);
+    border-right: 75px solid transparent ;
+}
+
+.shape3{
+    border-bottom: 75px solid rgb(173, 28, 28);
+    border-right: 40px solid transparent ;
+    border-left: 40px solid transparent ;
+}
+
+.shape4{
+    width: 75px;
+    height: 75px; 
+    border-radius: 50%;
+    background-color: rgb(50, 129, 199);
+}
+
+.shape5{
+    width: 100px;
+    height: 50px; 
+    border-radius: 50%;
+    background-color: rgb(50, 194, 199);
+}
+
